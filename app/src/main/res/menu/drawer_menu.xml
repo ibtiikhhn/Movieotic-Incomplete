@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Movies"
+        android:checkable="true">
+        <menu>
+            <group
+                android:id="@+id/tvList"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/upComingMovies"
+                    android:title="Up Coming"
+                    android:icon="@drawable/ic_movies"/>
+
+                <item
+                    android:id="@+id/inCinemaMovies"
+                    android:title="In Cinemas"
+                    android:icon="@drawable/ic_movies"/>
+
+                <item
+                    android:id="@+id/popularMovies"
+                    android:title="Popular Now"
+                    android:icon="@drawable/ic_movies"/>
+
+                <item
+                    android:id="@+id/topRatedMovies"
+                    android:title="Top Rated"
+                    android:icon="@drawable/ic_movies"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="TV Shows">
+        <menu>
+            <group
+                android:id="@+id/tvShows"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/popularTV"
+                    android:title="Popular"
+                    android:icon="@drawable/ic_tvshows"/>
+
+                <item
+                    android:id="@+id/topRatedTV"
+                    android:title="Top Rated"
+                    android:icon="@drawable/ic_tvshows"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="About">
+        <menu>
+            <group
+                android:id="@+id/about"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/shareApp"
+                    android:title="Share App"
+                    android:icon="@drawable/ic_share"/>
+
+                <item
+                    android:id="@+id/rateApp"
+                    android:title="RateApp"
+                    android:icon="@drawable/ic_rate"/>
+
+                <item
+                    android:id="@+id/contactDeveloper"
+                    android:title="Contact Developer"
+                    android:icon="@drawable/ic_email"/>
+
+            </group>
+        </menu>
+    </item>
+</menu>
